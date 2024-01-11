@@ -3,19 +3,15 @@
 	import logo from '$lib/images/svelte-logo.svg';
 </script>
 
-<header>
-	<div class="corner">
-		<a href="https://kit.svelte.dev">
-			<img src={logo} alt="SvelteKit" />
+<header class="flex content-between justify-between items-center p-2 px-4">
+	<div>
+		<a href="/">
+			<img  class="w-16" src={logo} alt="SvelteKit" />
 		</a>
 	</div>
 
 	<nav>
-		
-		<ul>
-			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-				<a href="/">Home</a>
-			</li>
+		<ul class="flex space-x-3 text-xl">
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 				<a href="/about">About</a>
 			</li>
@@ -24,9 +20,8 @@
 			</li>
 		</ul>
 	</nav>
-
-	
 </header>
 
 <style>
+	
 </style>
