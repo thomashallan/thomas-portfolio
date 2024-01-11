@@ -4,7 +4,7 @@
   import "./styles.css";
 </script>
 
-<div class="app">
+<div class="app flex flex-col justify-between h-screen">
   <Header />
 
   <main>
@@ -15,5 +15,4 @@
 </div>
 
 <style>
-	
 </style>
