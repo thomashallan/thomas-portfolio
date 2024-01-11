@@ -1,6 +1,6 @@
 <script>
 	import { page } from '$app/stores';
-	import logo from '$lib/images/svelte-logo.svg';
+	import logo from '$lib/images/logo/TH_LOGO.svg';
 </script>
 
 <header class="flex content-between justify-between items-center p-2 px-4">
