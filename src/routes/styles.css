@@ -23,6 +23,15 @@ h1 {
   text-transform: uppercase;
   font-weight: bold;
 }
+button {
+  border-width: 2px;
+  font-weight: bold;
+  padding: 0.5rem 3rem;
+}
+button:hover {
+  transition: all 0.2s ease-in-out;
+  scale: 1.1;
+}
 /*
 body {
   min-height: 100vh;

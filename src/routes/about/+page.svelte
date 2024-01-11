@@ -22,6 +22,9 @@
       Would you like to collaborate or hire me? Feel free to mail me via the
       button below!
     </p>
-    <button>Mail Me</button>
+    <button class="border-black">
+      <a target="_blank" href="mailto: thomashallan@icloud.com ">Mail Me</a
+      ></button
+    >
   </div>
 </section>
