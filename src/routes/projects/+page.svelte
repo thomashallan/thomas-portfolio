@@ -31,4 +31,9 @@
 
 <h1 class="text-center">Projects</h1>
 
-<section id="project-images"></section>
+<section id="project-images">
+  <ul>
+  {#each projects as project}
+  <li>{project.title} x {item.qty}</li>
+{/each}</ul>
+</section>
