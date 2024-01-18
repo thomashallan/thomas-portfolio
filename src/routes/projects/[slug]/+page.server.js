@@ -1,10 +1,12 @@
-// import { projects } from "$lib/data.js";
+import { error } from "@sveltejs/kit";
+import { projects } from "$lib/data.js";
 
-// export function load() {
-//   return {
-//     summaries: posts.map((post) => ({
-//       slug: post.slug,
-//       title: post.title,
-//     })),
-//   };
-// }
+export function load({ params }) {
+  const project = projects.find((project) => project.slug === params.slug);
+
+  if (!project) throw error(404);
+
+  return {
+    project,
+  };
+}
