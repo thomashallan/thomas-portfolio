@@ -7,7 +7,7 @@
 <div class="app flex flex-col justify-between h-screen">
   <Header />
 
-  <main>
+  <main class="max-w-screen-2xl mx-auto">
     <slot />
   </main>
 

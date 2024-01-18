@@ -7,10 +7,11 @@
     <title>Test</title>
 </svelte:head>
 
+<img class="min-h-64 md:min-h-80 object-cover" src="{data.project.cover}" alt="">
 
-<img src="{data.project.image[0].url}" alt="">
-
-<h1>{data.project.title}</h1>
+<div class="min-h-32 grid place-items-center w-full">
+    <h1 class="text-center">{data.project.title}</h1>
+</div>
 <p>{data.project.text}</p>
 
 {#each data.project.image as img}
