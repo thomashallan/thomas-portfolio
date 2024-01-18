@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
   import { onMount } from "svelte";
   import { projects } from "$lib/data.js";
 
@@ -36,4 +36,16 @@
   {#each projects as project}
   <li>{project.title} x {item.qty}</li>
 {/each}</ul>
-</section>
+</section> -->
+
+<script>
+  export let data;
+</script>
+
+<h1>Projects</h1>
+
+<ul>
+  {#each data.summaries as { title, text }}
+    <li><a href="/blog/{title}">{text}</a></li>
+  {/each}
+</ul>
