@@ -4,8 +4,15 @@
 </script>
 
 <svelte:head>
-    <title>{$project.title}</title>
+    <title>Test</title>
 </svelte:head>
 
 
+<img src="{data.project.image[0].url}" alt="">
+
 <h1>{data.project.title}</h1>
+<p>{data.project.text}</p>
+
+{#each data.project.image as img}
+<img src="{img.url}" alt="">
+{/each}

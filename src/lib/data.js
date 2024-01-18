@@ -6,7 +6,7 @@ export const projects = [
     text: "Palmesus is the biggest beach party in Scandinavia. They contacted us at Noroff University and asked if we could design some concepts for them. This is my submission.",
     image: [
       {
-        url: "/images/projects/palmesus_1",
+        url: "/images/projects/palmesus_1.png",
         alt: "Project 1",
       },
       {
@@ -22,7 +22,7 @@ export const projects = [
     text: "Ravnedalen Live is a music festival located in Kristiansand, Norway. The music festival is the most sustainable festival in Norway. They contacted Noroff for some concepts. This is my submission.",
     image: [
       {
-        url: "/images/projcets/ravndalen_2.png",
+        url: "/images/projects/ravndalen_2.png",
         alt: "Project 1",
       },
       {
