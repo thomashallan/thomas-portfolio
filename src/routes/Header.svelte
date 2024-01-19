@@ -7,7 +7,7 @@
 	<div class="flex content-between justify-between items-center p-2 px-4 max-w-screen-2xl mx-auto">
 		<div>
 			<a href="/">
-				<img  class="w-16" src={logo} alt="TH Design" />
+				<img width="50" height="50" class="w-16" src={logo} alt="TH Design" />
 			</a>
 		</div>
 	
