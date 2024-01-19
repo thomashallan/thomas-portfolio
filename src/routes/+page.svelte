@@ -3,6 +3,8 @@
   <title>Home</title>
 </svelte:head>
 
+
+
 <section class="hero-img w-full">
   <div class="bg-slate-950/60">
     <div class="text-white  grid-cols-1 grid justify-items-end items-center w-full min-h-[32rem]">

@@ -1,15 +1,16 @@
 <script>
     /** @type {import('./$types').PageData} */
+    import { fade, fly } from 'svelte/transition';
     export let data;
 </script>
 
 <svelte:head>
-    <title>Test</title>
+    <title>{data.project.title}</title>
 </svelte:head>
 
-<img class="min-h-64 md:min-h-80 object-cover" src="{data.project.cover}" alt="">
 
-<section>
+<section class="max-w-screen-lg mx-auto" in:fly={{ y: 100, duration: 800 }}>
+    <img class="min-h-64 md:min-h-80 object-cover" src="{data.project.cover}" alt="">
     <div class="min-h-32 grid place-items-center w-full">
         <h1 class="text-center">{data.project.title}</h1>
     </div>

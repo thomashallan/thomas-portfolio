@@ -6,6 +6,7 @@ export function load() {
       title: Project.title,
       text: Project.text,
       slug: Project.slug,
+      cover: Project.cover,
       image: Project.image[0].url,
     })),
   };
