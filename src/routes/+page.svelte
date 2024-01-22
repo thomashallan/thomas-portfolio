@@ -17,7 +17,7 @@
 
 <style>
   .hero-img{
-    background-image: url(../lib/images/hero-image.jpg);
+    background-image: url(/images/home/hero_image.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

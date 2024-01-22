@@ -1,6 +1,6 @@
 <script>
   import { fade, fly } from 'svelte/transition';
-  import image from "$lib/images/1V9A4266.jpg";
+  // import image from "$lib/images/1V9A4266.jpg";
 </script>
 
 <svelte:head>
@@ -13,8 +13,8 @@
     <h1>About me</h1>
   </div>
   <section class="flex flex-col md:flex-row container m-auto gap-5">
-    <div class="md:w-1/2">
-      <img class="max-h-96 m-auto w-full object-cover" src={image} alt="" />
+    <div class="md:w-1/2 about-img">
+      <img class="max-h-96 m-auto w-full object-cover " alt="" />
     </div>
     <div class="md:w-1/2 pb-5 m-5">
       <p class="pb-2">
@@ -35,3 +35,12 @@
       </section>
     </section>
       
+    <style>
+      .about-img {
+        background-image: url(/images/about/about_profile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+      }
+    </style>
