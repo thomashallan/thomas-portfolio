@@ -13,6 +13,7 @@ Besides delivery a amazing portolio, the main objective is to learn Svelte and S
 ## Technologies
 * TailwindCss
 * Svelte
+* Vite
 
 ## Installation and Setup
 
