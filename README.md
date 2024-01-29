@@ -1,38 +1,37 @@
-# create-svelte
+# Thomas Portfolio
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+Collaboration projects
 
-## Creating a project
+## Project brief
 
-If you're seeing this, you've probably already done this step. Congrats!
+This project involves creating a portfolio website for a graphic design student at Noroff. It was assigned as a group project where we were provided with a Figma design to base the website on.
+
+## Goal
+
+Besides delivery a amazing portolio, the main objective is to learn Svelte and SvelteKit, a modern JavaScript framework, to develop this project.
+
+## Technologies
+* TailwindCss
+* Svelte
+
+## Installation and Setup
+
+1. Install NPM
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+# install npm
+npm i
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+2. Start project
 
 ```bash
+# run dev
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+## Live
 
-To create a production version of your app:
+See project on Netlify
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+https://delightful-florentine-de2241.netlify.app/
