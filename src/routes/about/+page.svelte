@@ -18,17 +18,17 @@
     </div>
     <div class="md:w-1/2 pb-5 m-5">
       <p class="pb-2">
-        I am a 21-year-old graphic designer eriginating from Egersund, nestled in
+        I am a 21-year-old graphic designer from Egersund, nestled in
         the scenic southwest of Norway. My pursuit of graphic design commenced at
-        Noroff Universitu in Kristiansand, where I began my studies in August
+        Noroff University in Kristiansand, where I began my studies in August
         2022.
       </p>
       <p class="pb-2">
-        Would you like to collaborate or hire me? Feel free to mail me via the
+        Would you like to collaborate or hire me? Feel free to send me an E-mail me via the
         button below!
       </p>
       <button class="border-black">
-        <a target="_blank" href="mailto: thomashallan@icloud.com ">Mail Me</a
+        <a target="_blank" href="mailto: thomashallan@icloud.com ">E-mail Me</a
           ></button
           >
         </div>
