@@ -49,7 +49,7 @@ export const projects = [
     id: 2,
     slug: "casio",
     title: "Product photography Casio",
-    text: "We has a school assignment where our task was to take professional product. I chose a Casio watch and here is my result.",
+    text: "We had a school assignment where our task was to take professional product. I chose a Casio watch and here is my result.",
     cover: "/images/projects/casio_cover.png",
     image: [
       {
